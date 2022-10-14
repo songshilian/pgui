@@ -9,6 +9,7 @@ function App() {
           {
 // renderRoutes(routers)
           }
+          <div style={{width:'300rem',fontSize:'2rem'}}>啊哈哈</div>
     </div>
   );
 }
