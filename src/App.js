@@ -1,15 +1,23 @@
-import {redirect} from 'react-router-dom';
-import {withRouter} from 'react-router';
-// import {renderRoutes} from 'react-router-config'
-// import routers from './routers/index'
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-          {
-// renderRoutes(routers)
-          }
-          <div style={{width:'300rem',fontSize:'2rem'}}>啊哈哈</div>
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
 }
